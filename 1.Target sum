@@ -1,0 +1,11 @@
+a = [2,7,11,15]
+b = len(a)
+c = int(input("enter target number :"))
+for i in range(b):
+    d = a[i]
+    for j in range(b):
+        if j!= i:
+            s = d+a[j]
+            if(s == c):
+                print("target value is found at",i,j)
+                break
