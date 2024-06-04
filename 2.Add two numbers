@@ -1,0 +1,14 @@
+l1=[2,4,3]
+
+l2=[5,6,4]
+
+l3=[]
+
+for i in range (len(l1)):
+    s=l1[i] +l2[1]
+if s >= 10:
+    l3.append(int(str(s) [-1])) # Append the first digit of the sum
+else:
+    l3.append(s)
+for j in range (len(l3)):
+    print(l3[j],end=",")
