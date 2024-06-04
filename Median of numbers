@@ -1,0 +1,10 @@
+n1=[1,3]
+n2=[2]
+if len(n1) or len(n2) ==1:
+  n3=n1+n2
+  n3.sort()
+  i=len(n3)//2
+  print(n3[i])
+else:
+  s=(n1[-1]+n2[0])/2
+  print(s)
