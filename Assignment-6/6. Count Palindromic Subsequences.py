@@ -34,7 +34,4 @@ def countPalindromicSubsequences(s: str) -> int:
     return sum(dp[0][n - 1]) % MOD
 
 
-# Test the function with examples
-print(countPalindromicSubsequences("103301"))  # Output: 2
-print(countPalindromicSubsequences("0000000"))  # Output: 21
-print(countPalindromicSubsequences("9999900000"))  # Output: 2
+print(countPalindromicSubsequences("103301"))
