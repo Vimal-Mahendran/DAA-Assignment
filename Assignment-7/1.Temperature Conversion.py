@@ -3,7 +3,6 @@ def convert_temperature(celsius):
     fahrenheit = celsius * 1.80 + 32.00
     return [round(kelvin, 5), round(fahrenheit, 5)]
 
-# Example usage:
 celsius_input_1 = 36.50
 celsius_input_2 = 122.11
 
